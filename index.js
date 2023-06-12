@@ -12,32 +12,32 @@ function closeabout(){
         $("#about_container").css("display","none");
     },800);
 }
-function showwork(){
-    $("#work_container").css("display","inherit");
-    $("#work_container").addClass("animated slideInRight");
+function showabout2(){
+    $("#about2_container").css("display","inherit");
+    $("#about2_container").addClass("animated slideInLeft");
     setTimeout(function(){
-        $("#work_container").removeClass("animated slideInRight");
+        $("#about2_container").removeClass("animated slideInLeft");
     },800);
 }
-function closework(){
-    $("#work_container").addClass("animated slideOutRight");
+function closeabout2(){
+    $("#about2_container").addClass("animated slideOutLeft");
     setTimeout(function(){
-        $("#work_container").removeClass("animated slideOutRight");
-        $("#work_container").css("display","none");
+        $("#about2_container").removeClass("animated slideOutLeft");
+        $("#about2_container").css("display","none");
     },800);
 }
-function showcontact(){
-    $("#contact_container").css("display","inherit");
-    $("#contact_container").addClass("animated slideInUp");
+function showabout3(){
+    $("#about3_container").css("display","inherit");
+    $("#about3_container").addClass("animated slideInLeft");
     setTimeout(function(){
-        $("#contact_container").removeClass("animated slideInUp");
+        $("#about3_container").removeClass("animated slideInLeft");
     },800);
 }
-function closecontact(){
-    $("#contact_container").addClass("animated slideOutDown");
+function closeabout3(){
+    $("#about3_container").addClass("animated slideOutLeft");
     setTimeout(function(){
-        $("#contact_container").removeClass("animated slideOutDown");
-        $("#contact_container").css("display","none");
+        $("#about3_container").removeClass("animated slideOutLeft");
+        $("#about3_container").css("display","none");
     },800);
 }
 setTimeout(function(){
@@ -47,7 +47,7 @@ setTimeout(function(){
       $("#loading").css("display","none");
       $("#box").css("display","none");
       $("#about").removeClass("animated fadeIn");
-      $("#contact").removeClass("animated fadeIn");
-      $("#work").removeClass("animated fadeIn");
+      $("#about2").removeClass("animated fadeIn");
+
     },1000);
 },1500);

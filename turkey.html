@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iTz Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+
+    <!--Main Code-->
+        <h1>Turkey Products</h1>
+        <div id="used">
+            <div><i class="fas fa-circle"></i>&nbsp;To buy, join our Discord server and open a ticket.</div>
+        </div>
+        <h2>
+            <section>
+                <button class="btn_two"> <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">Valorant</a></button>
+                <button class="btn_two"> <a id="about3" onclick="showabout3()" class="animated fadeIn" style="animation-delay:2.2s;">League Of Legends</a></button>
+                <button class="btn_two"> <a id="about2" onclick="showabout2()" class="animated fadeIn" style="animation-delay:2.2s;">Steam</a></button>
+                <div id="menu">
+                    <a onclick="showabout()">about</a>
+                    <a onclick="showabout2()">about</a>
+                    <a onclick="showabout3()">about</a>
+                </div>
+
+            </section>
+        </h2>
+        <h3>
+            If the platform you want is not in the list, visit the Discord server and open a ticket.
+        </h3>
+        <p>
+            در صورتی که پلتفرم مد نظر شما در لیست نبود به سرور دیسکورد مراجعه کرده و تیکت باز کنید
+        </p>
+            <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://discord.gg/rYqVyzRyFF" class="social"><i class="fab fa-discord"></i></a></td>
+                </tr>
+            </table>
+    </div>
+
+    <!--About1 Valorant container-->
+    <div id="about_container" class="container">
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>Valorant Point</h1>
+        <section>
+            <p>
+                This product can only be activated in Region Turkey accounts and we need your password and account for activation.
+            </p>
+            <p>
+                این محصول فقط در اکانت های ریجن ترکیه قابل فعال سازی است و برای فعال سازی به رمز و اکانت شما نیازمندیم
+            </p>
+        </section>
+        <section>
+            <p>
+                <div id="used"> 
+                    <div>115VP 0.9$ <i class="fas fa-circle"></i> 38,900 T</div>
+                    <div>485VP 3.5$ <i class="fas fa-circle"></i> 150,000 T</div>
+                    <div>1850VP 11.6$ <i class="fas fa-circle"></i> 500,000 T</div>
+                    <div>3400VP 21$ <i class="fas fa-circle"></i> 890,000 T</div>
+                </div>
+            </p> 
+            <button class="btn_one"> <a href="https://discord.gg/zam9cTg8ts">Click here to Buy.</a></button>
+        </section>
+
+    </div>
+
+    <!--About2 Steam container-->
+    <div id="about2_container" class="container">
+        <div onclick="closeabout2()"><i class="fas fa-angle-left"></i></div>
+        <h1>Steam Wallet</h1>
+        <section>
+            <p>
+                This product can only be activated in Region Turkey accounts and we need your password and account for activation.
+            </p>
+            <p>
+                این محصول فقط در اکانت های ریجن ترکیه قابل فعال سازی است و برای فعال سازی به رمز و اکانت شما نیازمندیم
+            </p>
+        </section>
+        <section>
+            <p>
+                <div id="used"> 
+                    <div>20 TRY 1.2$ <i class="fas fa-circle"></i> 60,000 T</div>
+                    <div>50 TRY 2.8$ <i class="fas fa-circle"></i> 130,000 T</div>
+                    <div>200 TRY 10.6$ <i class="fas fa-circle"></i> 460,000 T</div>
+                    <div>250 TRY 13.2$ <i class="fas fa-circle"></i> 580,000 T</div>
+                </div>
+            </p>
+            <button class="btn_one"> <a href="https://discord.gg/zam9cTg8ts">Click here to Buy.</a></button>
+        </section>
+    </div>
+
+    <!--About3 League Of Legends container-->
+    <div id="about3_container" class="container">
+        <div onclick="closeabout3()"><i class="fas fa-angle-left"></i></div>
+        <h1>League Of Legends</h1>
+        <section>
+            <p>
+                This product can only be activated in Region Turkey accounts and we need your password and account for activation.
+            </p>
+            <p>
+                این محصول فقط در اکانت های ریجن ترکیه قابل فعال سازی است و برای فعال سازی به رمز و اکانت شما نیازمندیم
+            </p>
+        </section>
+        <section>
+            <p>
+                <div id="used"> 
+                    <div>200 RP 1.5$ <i class="fas fa-circle"></i> 70,000 T</div>
+                    <div>850 RP 4$ <i class="fas fa-circle"></i> 180,000 T</div>
+                    <div>3150 RP 12.5$ <i class="fas fa-circle"></i> 600,000 T</div>
+                    <div>5800 RP 23$ <i class="fas fa-circle"></i> 1,000,000 T</div>
+                </div>
+            </p>
+            <button class="btn_one"> <a href="https://discord.gg/zam9cTg8ts">Click here to Buy.</a></button>
+        </section>
+    </div>
+
+    <!--Footer-->
+        <div id="footer">
+             <br> Made By MaS[⊥]eR#2122 <a href="https://discord.gg/rYqVyzRyFF">iTz Store</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
