@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.discordapp.net/attachments/716935627865587734/1116717589209567232/349967.jpg?width=1205&height=677") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./bckground.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
